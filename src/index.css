@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet+Guides&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* --NavBar-- */
+.navbar {
+    position:relative;
+    top: 0;
+    background-image: url(https://i.pinimg.com/736x/42/e5/91/42e591a41a6899952abf383fffd94a20.jpg);
+    width: 100%;
+    padding: 10px 40px;
+    align-items: center;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 90px;
+}
+
+.navbar .home {
+    height: 50px;
+    padding: 10px 20px;
+    color: beige;
+    font-family: cursive;
+    background-color: rgb(169, 43, 43);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.navbar .home:hover {
+    background-color: rgb(39, 10, 10);
+}
+
+.navbar .navbar-text{
+    color: #2B1D16;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap : 5px;
+    font-size: 70px;
+    font-family: "Playwrite IE", cursive; 
+    
+}
+.nav-logo {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    
+}
+/* --HeroSection-- */
+.hero-body{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;   
+    background-image: url(https://i.pinimg.com/736x/79/63/05/796305d24979d578bf273bd259957633.jpg); 
+    border-radius: 50px;
+}
+    
+.hero-body .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 6%;
+    gap: 50px; 
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    flex: 1; 
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.title {
+    font-family: "Playwrite DK Uloopet Guides", cursive;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    
+}
+
+.subtitle {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.1;
+    
+    max-width: 600px; 
+}
