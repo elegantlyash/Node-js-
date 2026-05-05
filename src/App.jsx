@@ -13,6 +13,7 @@ import Technology from './components/Technology'
 import Food from './components/Food'
 import Fitness from './components/Fitness'
 import Home from './components/Home'
+import MovieProvider from './context/MovieProvider'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
   return (
    
     <>
+    <MovieProvider/>
     <BrowserRouter>
         <Navbar />
         <Routes>
@@ -32,6 +34,7 @@ const App = () => {
           <Route path="/details" element={<Details />} />
         </Routes>
       </BrowserRouter>
+      
     
     {/* <DataFetching/>
     <br />
