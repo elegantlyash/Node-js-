@@ -21,6 +21,31 @@
         }
     }
 ```
+#context API
+1. Create a context
+```
+const userContext = createContext()
+```
+2. Provider
+```
+<userContext.Provider value={value}>
+    {children}
+</userContext.Provider>
+```
+
+3. Consumer
+
+useContext() Hook
+```
+useContext(userContext)
+```
+
+4. Display the data
+```
+<Provider>
+    <Consumer>
+</Provider>
+```
 
 
 
